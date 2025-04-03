@@ -7,7 +7,8 @@
 			"files": [
 				"D:/UnrealProjects/D_Project/Project_DL/Content/Maps/DevMap.umap",
 				"D:/UnrealProjects/D_Project/Project_DL/Content/Blueprint/System/BP_DGameInstance.uasset",
-				"D:/UnrealProjects/D_Project/Project_DL/Content/Blueprint/System/BP_DGameModeBase.uasset"
+				"D:/UnrealProjects/D_Project/Project_DL/Content/Blueprint/System/BP_DGameModeBase.uasset",
+				"D:/UnrealProjects/D_Project/Project_DL/Content/Blueprint/Character/BP_DPlayer.uasset"
 			]
 		}
 	]

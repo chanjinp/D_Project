@@ -34,7 +34,7 @@ public:
 
 public:
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
-	virtual void InitAbiltySystem();
+	virtual void InitAbilitySystem();
 
 protected:
 	//스킬

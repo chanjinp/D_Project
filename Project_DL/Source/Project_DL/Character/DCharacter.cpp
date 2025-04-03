@@ -47,7 +47,7 @@ UAbilitySystemComponent* ADCharacter::GetAbilitySystemComponent() const
 	return nullptr;
 }
 
-void ADCharacter::InitAbiltySystem()
+void ADCharacter::InitAbilitySystem()
 {
 }
 
