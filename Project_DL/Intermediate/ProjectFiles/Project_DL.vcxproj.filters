@@ -106,5 +106,29 @@
     <ClInclude Include="..\..\Source\Project_DL\System\DGameInstance.h">
       <Filter>Source\Project_DL\System</Filter>
     </ClInclude>
+    <Filter Include="Source\Project_DL\TP_TopDown">
+      <UniqueIdentifier>{187BE021-E08A-3623-B66C-983C830C500D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Project_DL\TP_TopDown\TP_TopDown.h">
+      <Filter>Source\Project_DL\TP_TopDown</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_DL\TP_TopDown\TP_TopDownCharacter.cpp">
+      <Filter>Source\Project_DL\TP_TopDown</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\TP_TopDown\TP_TopDownCharacter.h">
+      <Filter>Source\Project_DL\TP_TopDown</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_DL\TP_TopDown\TP_TopDownGameMode.cpp">
+      <Filter>Source\Project_DL\TP_TopDown</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\TP_TopDown\TP_TopDownGameMode.h">
+      <Filter>Source\Project_DL\TP_TopDown</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_DL\TP_TopDown\TP_TopDownPlayerController.cpp">
+      <Filter>Source\Project_DL\TP_TopDown</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\TP_TopDown\TP_TopDownPlayerController.h">
+      <Filter>Source\Project_DL\TP_TopDown</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
