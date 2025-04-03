@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealprojects\\d_project\\project_dl\\source\\project_dl\\project_dl.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealprojects\\d_project\\project_dl\\intermediate\\build\\win64\\x64\\project_dleditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealprojects\\d_project\\project_dl\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\project_dl\\definitions.project_dl.h",
+            "d:\\unrealprojects\\d_project\\project_dl\\source\\project_dl\\project_dl.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
