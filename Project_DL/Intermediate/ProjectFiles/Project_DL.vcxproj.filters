@@ -88,6 +88,15 @@
     <ClInclude Include="..\..\Source\Project_DL\Character\DPlayer.h">
       <Filter>Source\Project_DL\Character</Filter>
     </ClInclude>
+    <Filter Include="Source\Project_DL\Controller">
+      <UniqueIdentifier>{239A1FB1-B15C-3FA0-AC1D-417DBEE35E21}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\Controller\DPlayerController.cpp">
+      <Filter>Source\Project_DL\Controller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\Controller\DPlayerController.h">
+      <Filter>Source\Project_DL\Controller</Filter>
+    </ClInclude>
     <Filter Include="Source\Project_DL\GameMode">
       <UniqueIdentifier>{630873FE-4ED0-3A5B-A7E6-B6CC4226B7C9}</UniqueIdentifier>
     </Filter>

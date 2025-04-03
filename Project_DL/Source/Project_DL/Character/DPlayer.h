@@ -22,6 +22,8 @@ protected:
 	virtual void PossessedBy(AController* NewController) override;
 	virtual void InitAbilitySystem() override;
 
+	class USpringArmComponent* GetSpringArm() const;
+	class UCameraComponent* GetCameraComponent() const;
 
 public:
 	virtual void Tick(float DeltaTime) override;
