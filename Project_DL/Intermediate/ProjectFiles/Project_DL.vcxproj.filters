@@ -11,6 +11,9 @@
     <None Include="..\..\Source\Project_DLEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +40,66 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Project_DL\Project_DL.h">
       <Filter>Source\Project_DL</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_DL\AbilitySystem">
+      <UniqueIdentifier>{55C88108-6AAD-3E1F-8B9B-9CCC4764AD61}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\AbilitySystem\DAbilitySystemComponent.cpp">
+      <Filter>Source\Project_DL\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\AbilitySystem\DAbilitySystemComponent.h">
+      <Filter>Source\Project_DL\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_DL\AbilitySystem\Abilities">
+      <UniqueIdentifier>{91211990-3008-32B4-9FAC-BA7EC5BAB169}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\AbilitySystem\Abilities\DGameplayAbility.cpp">
+      <Filter>Source\Project_DL\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\AbilitySystem\Abilities\DGameplayAbility.h">
+      <Filter>Source\Project_DL\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_DL\AbilitySystem\Attribute">
+      <UniqueIdentifier>{EC5684E5-3209-3F18-9F70-6821850CB14F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\AbilitySystem\Attribute\DAttributeSet.cpp">
+      <Filter>Source\Project_DL\AbilitySystem\Attribute</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\AbilitySystem\Attribute\DAttributeSet.h">
+      <Filter>Source\Project_DL\AbilitySystem\Attribute</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_DL\AbilitySystem\Attribute\DPlayerSet.cpp">
+      <Filter>Source\Project_DL\AbilitySystem\Attribute</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\AbilitySystem\Attribute\DPlayerSet.h">
+      <Filter>Source\Project_DL\AbilitySystem\Attribute</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_DL\Character">
+      <UniqueIdentifier>{49BC9DA2-02FF-3A86-AC93-2F9D58E4429C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\Character\DCharacter.cpp">
+      <Filter>Source\Project_DL\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\Character\DCharacter.h">
+      <Filter>Source\Project_DL\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_DL\GameMode">
+      <UniqueIdentifier>{630873FE-4ED0-3A5B-A7E6-B6CC4226B7C9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\GameMode\DGameModeBase.cpp">
+      <Filter>Source\Project_DL\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\GameMode\DGameModeBase.h">
+      <Filter>Source\Project_DL\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_DL\System">
+      <UniqueIdentifier>{35B14915-17E8-35C9-A603-742391E92CEA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\System\DGameInstance.cpp">
+      <Filter>Source\Project_DL\System</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\System\DGameInstance.h">
+      <Filter>Source\Project_DL\System</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

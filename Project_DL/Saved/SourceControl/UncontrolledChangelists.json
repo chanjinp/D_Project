@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/UnrealProjects/D_Project/Project_DL/Content/Maps/DevMap.umap"
+				"D:/UnrealProjects/D_Project/Project_DL/Content/Maps/DevMap.umap",
+				"D:/UnrealProjects/D_Project/Project_DL/Content/Blueprint/System/BP_DGameInstance.uasset",
+				"D:/UnrealProjects/D_Project/Project_DL/Content/Blueprint/System/BP_DGameModeBase.uasset"
 			]
 		}
 	]
