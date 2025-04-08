@@ -46,6 +46,7 @@ protected:
 	virtual void SetupInputComponent() override;
 
 	virtual void BeginPlay();
+	virtual void PlayerTick(float DeltaTime) override;
 
 	//Input handlers for SetDestination action
 	//Action Event에 따른 콜백 함수들
@@ -56,8 +57,23 @@ protected:
 	void OnTouchReleased();
 
 private:
+	//몬스터 위에 내가 마우스를 가져가 대고 있는가?
+	void TickCursorTrace();
+
+private:
 	FVector CachedDestination; //기존 내 위치 저장
 
 	bool bIsTouch; //터치했는가?
 	float FollowTime; //얼마나 누르고 있었는가?
+	bool bMousePressed; //마우스 클릭했는가?
+
+protected:
+	UPROPERTY(BlueprintReadOnly)
+	TObjectPtr<class ADCharacter> TargetActor; //내가 클릭한 Actor
+
+	UPROPERTY(BlueprintReadOnly)
+	TObjectPtr<class ADCharacter> HighlightActor; //내가 강조할 Actor
+
+	UPROPERTY(BlueprintReadOnly)
+	TObjectPtr<class ADPlayer> DPlayer;
 };

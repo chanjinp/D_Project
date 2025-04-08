@@ -6,10 +6,11 @@
 #include "GameFramework/Character.h"
 #include "GameplayTagContainer.h"
 #include "AbilitySystemInterface.h"
+#include "DHighlightInterface.h"
 #include "DCharacter.generated.h"
 
 UCLASS()
-class PROJECT_DL_API ADCharacter : public ACharacter, public IAbilitySystemInterface
+class PROJECT_DL_API ADCharacter : public ACharacter, public IAbilitySystemInterface, public IDHighlightInterface
 {
 	GENERATED_BODY()
 
@@ -45,4 +46,12 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TObjectPtr<class UDAttributeSet> AttributeSet;
 
+
+public:
+	virtual void HighlightOn() override;
+	virtual void UnHighlightOn() override;
+
+protected:
+	UPROPERTY(BlueprintReadOnly)
+	bool bHighlighed = false; //강조 여부
 };

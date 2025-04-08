@@ -31,6 +31,12 @@
     <Filter Include="Source\Project_DL">
       <UniqueIdentifier>{B129D7F7-81CB-30C8-A962-C63DFBFBD686}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\DHighlightInterface.cpp">
+      <Filter>Source\Project_DL</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\DHighlightInterface.h">
+      <Filter>Source\Project_DL</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Project_DL\Project_DL.Build.cs">
       <Filter>Source\Project_DL</Filter>
     </None>
@@ -80,6 +86,12 @@
       <Filter>Source\Project_DL\Character</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Project_DL\Character\DCharacter.h">
+      <Filter>Source\Project_DL\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_DL\Character\DMonster.cpp">
+      <Filter>Source\Project_DL\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\Character\DMonster.h">
       <Filter>Source\Project_DL\Character</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Project_DL\Character\DPlayer.cpp">

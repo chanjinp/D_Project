@@ -51,3 +51,17 @@ void ADCharacter::InitAbilitySystem()
 {
 }
 
+void ADCharacter::HighlightOn()
+{
+	bHighlighed = true; //강조 상태로 변경
+	//깊이 값을 통한 Rendering
+	GetMesh()->SetRenderCustomDepth(true); //깊이 값을 통해 강조
+	GetMesh()->SetCustomDepthStencilValue(250); //깊이 값 설정
+}
+
+void ADCharacter::UnHighlightOn()
+{
+	bHighlighed = false; //강조 해제 상태로 변경
+	GetMesh()->SetRenderCustomDepth(false); //깊이 값 해제
+}
+
