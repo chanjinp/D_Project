@@ -80,6 +80,21 @@
     <ClInclude Include="..\..\Source\Project_DL\AbilitySystem\Attribute\DPlayerSet.h">
       <Filter>Source\Project_DL\AbilitySystem\Attribute</Filter>
     </ClInclude>
+    <Filter Include="Source\Project_DL\Animation">
+      <UniqueIdentifier>{8D8321A3-DB2D-39BF-A368-DC0ABA1A608C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\Animation\DAnimInstance.cpp">
+      <Filter>Source\Project_DL\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\Animation\DAnimInstance.h">
+      <Filter>Source\Project_DL\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_DL\Animation\DAnimNotify_SendGamePlayEvent.cpp">
+      <Filter>Source\Project_DL\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\Animation\DAnimNotify_SendGamePlayEvent.h">
+      <Filter>Source\Project_DL\Animation</Filter>
+    </ClInclude>
     <Filter Include="Source\Project_DL\Character">
       <UniqueIdentifier>{49BC9DA2-02FF-3A86-AC93-2F9D58E4429C}</UniqueIdentifier>
     </Filter>
@@ -109,6 +124,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Project_DL\Controller\DPlayerController.h">
       <Filter>Source\Project_DL\Controller</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_DL\Define">
+      <UniqueIdentifier>{E44A4A97-C9D1-3E86-BD3E-3CDA4D2DAAAF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_DL\Define\Define.cpp">
+      <Filter>Source\Project_DL\Define</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_DL\Define\Define.h">
+      <Filter>Source\Project_DL\Define</Filter>
     </ClInclude>
     <Filter Include="Source\Project_DL\GameMode">
       <UniqueIdentifier>{630873FE-4ED0-3A5B-A7E6-B6CC4226B7C9}</UniqueIdentifier>
