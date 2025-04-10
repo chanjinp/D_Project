@@ -109,6 +109,7 @@
     <None Include="..\..\Project_DL.uproject"/>
     <None Include="..\..\Source\Project_DL.Target.cs"/>
     <None Include="..\..\Source\Project_DLEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
     <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
